@@ -3,7 +3,7 @@ SRC    = $(wildcard *.c)
 TARGET = $(basename $(SRC))
 STD    = c2x
 
-CFLAGS_COMMON  = -Wall -Wextra -std=$(STD)
+CFLAGS_COMMON  = -Wall -Wextra -pedantic-errors -std=$(STD)
 CFLAGS_DEBUG   = -g -O0
 CFLAGS_RELEASE = -O3
 
