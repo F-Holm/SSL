@@ -31,8 +31,10 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 | Comando | Descripción |
 | :--- | :--- |
-| `make` | Alias de `make debug`. |
+| `make` | Alias de `make debug save run`. |
 | `make debug` | Compila con símbolos de depuración (`-g`) y sin optimización. |
 | `make release` | Compila con optimización máxima (`-O3`). |
+| `make run` | Ejecuta el programa generado. |
+| `make save` | Ejecuta el programa generado y guarda su salida en el [archivo de output](output.txt). |
 | `make clean` | Elimina el ejecutable generado. |
 | `make format` | Aplica `clang-format` con el estilo de Google. |
