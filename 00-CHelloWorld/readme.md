@@ -6,7 +6,7 @@
 
 ## Versión
 
-```
+```bash
 gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
 Copyright (C) 2023 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
@@ -20,7 +20,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 - `c11`
 - `c17`
 - `c2x`
-<br>
+
 (Existen muchas más versiones que se pueden poner en la flag `-std=` del compilador pero son iguales a alguna de las que están acá)
 
 ## Versión de C utilizada
