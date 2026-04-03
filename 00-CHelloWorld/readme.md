@@ -27,6 +27,8 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 `c2x`
 
+`__STDC_VERSION__` = `202000`
+
 ## Comandos de Make
 
 | Comando | Descripción |
