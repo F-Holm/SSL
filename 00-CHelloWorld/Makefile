@@ -1,7 +1,7 @@
-CC     = gcc
+CC     = clang
 SRC    = $(wildcard *.c)
 TARGET = $(basename $(SRC))
-STD    = c2x
+STD    = c23
 OUTPUT = output.txt
 
 CFLAGS_COMMON  = -Wall -Wextra -pedantic-errors -std=$(STD)

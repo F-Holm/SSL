@@ -2,32 +2,38 @@
 
 ## Compilador
 
-`GCC`
+`Clang`
 
 ## Versión
 
 ```text
-gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
-Copyright (C) 2023 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Ubuntu clang version 18.1.3 (1ubuntu1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
 ```
 
 ## Versiones de C soportadas
 
-- `c90`
-- `c99`
-- `c11`
-- `c17`
-- `c2x`
-
-(Existen muchas más versiones que se pueden poner en la flag `-std=` del compilador pero son iguales a alguna de las que están acá)
+```text
+use 'c89', 'c90', or 'iso9899:1990' for 'ISO C 1990' standard
+use 'iso9899:199409' for 'ISO C 1990 with amendment 1' standard
+use 'gnu89' or 'gnu90' for 'ISO C 1990 with GNU extensions' standard
+use 'c99' or 'iso9899:1999' for 'ISO C 1999' standard
+use 'gnu99' for 'ISO C 1999 with GNU extensions' standard
+use 'c11' or 'iso9899:2011' for 'ISO C 2011' standard
+use 'gnu11' for 'ISO C 2011 with GNU extensions' standard
+use 'c17', 'iso9899:2017', 'c18', or 'iso9899:2018' for 'ISO C 2017' standard
+use 'gnu17' or 'gnu18' for 'ISO C 2017 with GNU extensions' standard
+use 'c23' for 'Working Draft for ISO C23' standard
+use 'gnu23' for 'Working Draft for ISO C23 with GNU extensions' standard
+```
 
 ## Versión de C utilizada
 
-`c2x`
+`c23`
 
-`__STDC_VERSION__` = `202000`
+`__STDC_VERSION__` = `202311`
 
 ## Comandos de Make
 
